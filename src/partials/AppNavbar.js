@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Constant from "../Constants";
-import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAlignCenter } from "@fortawesome/free-solid-svg-icons";
 
@@ -21,6 +20,7 @@ function AppNavbar() {
               className="mr-3 btn btn-info"
               href="https://github.com/rishirajpurohit/ReadMePros#how-to-contribute"
               target="_blank"
+              rel="noopener noreferrer"
             >
               More Projects
             </a>

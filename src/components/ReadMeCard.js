@@ -34,6 +34,7 @@ function ReadMeCard({ readme }) {
           <a
             href={`https://github.com/${readme.github_username}`}
             target="_blank"
+            rel="noopener noreferrer"
             className="btn btn-sm btn-secondary fa-pull-right"
           >
             <FontAwesomeIcon icon={faCodeBranch} className="mr-1" /> GitHub

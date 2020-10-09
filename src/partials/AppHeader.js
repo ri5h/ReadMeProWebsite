@@ -1,7 +1,6 @@
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
-import { Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
@@ -21,6 +20,7 @@ function AppHeader() {
                 className="mr-3 btn btn-primary"
                 href="https://github.com/rishirajpurohit/ReadMePros#how-to-contribute"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <FontAwesomeIcon icon={faPlus} className="mr-1" />
                 Add Your Own
@@ -29,6 +29,7 @@ function AppHeader() {
                 className="mr-3 btn btn-secondary"
                 href="https://github.com/rishirajpurohit/ReadMeProsWebsite/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 View Source
               </a>
