@@ -6,7 +6,7 @@ import ReadMeCard from "./ReadMeCard";
 function ReadMeGrid({ readmelist }) {
   console.log(readmelist);
   return (
-    <Container>
+    <Container fluid>
       <Row>
         {readmelist.map((readme) => (
           <ReadMeCard readme={readme} key={readme.name} />

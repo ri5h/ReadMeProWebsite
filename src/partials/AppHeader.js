@@ -25,7 +25,13 @@ function AppHeader() {
                 <FontAwesomeIcon icon={faPlus} className="mr-1" />
                 Add Your Own
               </a>
-              <Button variant="secondary">View Source</Button>
+              <a
+                className="mr-3 btn btn-secondary"
+                href="https://github.com/rishirajpurohit/ReadMeProsWebsite/"
+                target="_blank"
+              >
+                View Source
+              </a>
             </div>
           </div>
         </div>

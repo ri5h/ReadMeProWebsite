@@ -17,9 +17,13 @@ function AppNavbar() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
           <div className="col-md-12 col-sm-4">
-            <Button variant="success" className="btn-md">
+            <a
+              className="mr-3 btn btn-info"
+              href="https://github.com/rishirajpurohit/ReadMePros#how-to-contribute"
+              target="_blank"
+            >
               More Projects
-            </Button>
+            </a>
           </div>
         </Nav>
       </Navbar.Collapse>

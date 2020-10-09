@@ -8,7 +8,7 @@ const screenshotPath = (name) => `${Constants.README_DIR}/${name}/${name}.png`;
 
 const styles = {
   cardImgContainer: {
-    height: "200px",
+    height: "300px",
   },
   cardImg: {
     height: "100%",
@@ -28,13 +28,13 @@ function ReadMeCard({ readme }) {
             style={styles.cardImg}
           />
         </div>
-        <Card.Body>
+        <Card.Body style={{ borderTop: "1px solid gray" }}>
           <Card.Title>{readme.author}</Card.Title>
           <Card.Text>{readme.description}</Card.Text>
           <a
             href={`https://github.com/${readme.github_username}`}
             target="_blank"
-            className="btn btn-md btn-success fa-pull-right"
+            className="btn btn-sm btn-secondary fa-pull-right"
           >
             <FontAwesomeIcon icon={faCodeBranch} className="mr-1" /> GitHub
           </a>
