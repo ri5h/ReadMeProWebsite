@@ -4,6 +4,7 @@ import AppHeader from "./partials/AppHeader";
 import ReadMeGrid from "./components/ReadMeGrid";
 import ReadMeList from "./ReadMeList";
 import Constant from "./Constants";
+import { Helmet } from "react-helmet";
 
 export default function App() {
   return (
